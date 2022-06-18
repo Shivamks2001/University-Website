@@ -1,0 +1,358 @@
+body
+{
+    text-align: center;
+}
+
+/* Title */
+
+#title
+{
+    background-image: linear-gradient(rgba(16, 24, 43, 0.7),rgba(16, 24, 43, 0.7)),url(Images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.title-container
+{
+    padding: 2% 4%;
+}
+
+.title-text
+{
+    color: #fff;
+    padding: 13% 0 14%;
+}
+
+.logo
+{
+    width: 150px;
+}
+
+.nav-item
+{
+    padding: 0 14px;
+}
+
+#title h1
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#title p
+{
+    font-size: 15px;
+    padding: 10px 10%;
+}
+
+.my-btn
+{
+    width: 15%;
+}
+
+/* Course */
+
+#course
+{
+   padding: 8% 10% 4%;
+}
+
+#course h2
+{
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+}
+
+#course h3
+{
+    font-size: 1.6rem;
+    padding: 20px 0 5px;
+}
+
+.col-course p{
+    padding: 8px 12px 20px;
+    line-height: 2;
+}
+
+.col-course
+{
+    background-color: #FFEBC1;
+    border-radius: 5%;
+}
+
+.my-col
+{
+    padding: 3% 3%;
+}
+
+/* Campus Section */
+
+#campus
+{
+    padding: 2% 10% 8%;
+}
+
+.campus-img
+{
+    height: 360px;
+    width: 240px;
+    border-radius: 5%;
+}
+
+#campus h2
+{
+    font-size: 2.5rem;
+    padding-bottom: 8.5%;
+}
+
+#campus h3
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 5%;
+}
+
+/* Facilities Section */
+
+#facilities
+{
+    padding: 0% 10% 5%;
+}
+
+.facility-img
+{
+    height: 300px;
+    width: 260px;
+    border-radius: 5%;
+}
+
+#facilities h2
+{
+    font-size: 2.5rem;
+    padding-bottom: 8.5%;
+}
+
+#facilities h3
+{
+    font-size: 1.5rem;
+    padding: 5% 0 1%; 
+    font-weight: 400;
+}
+
+#facilities p
+{
+    line-height: 2;
+    padding: 0 3% 10%;
+}
+
+/* testimonial */
+
+#testimonial
+{
+    /* padding: 7% 15%; */
+    background-image:linear-gradient(rgba(16, 24, 43, 0.7),rgba(16, 24, 43, 0.7)),url(Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff
+}
+
+#testimonial h2
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.testimonial-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-inner
+{
+    padding: 7% 10%;
+}
+
+/* cta */
+
+#cta
+{
+    padding: 8% 15%;
+}
+
+#cta h2
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-top: 4%;
+}
+
+.my-cta-div
+{
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(16, 24, 43, 0.7),rgba(16, 24, 43, 0.7)), url(Images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff
+}
+
+.my-btn-cta
+{
+    margin: 3% 0 0%;
+    width: 25%;
+}
+
+/* Footer */
+
+#footer
+{
+    padding: 3% 0;
+}
+
+.footer-div
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    left: 3%;
+}
+
+#footer a
+{
+    margin-right: 7%;
+    color: rgb(9, 3, 46);
+}
+
+#footer p
+{
+    padding-top: 2%;
+    font-size: 0.8rem;
+}
+
+/* Media Query */
+
+@media (max-width: 920px) and (min-width: 601px) {
+    .col-course
+    {
+        height: 260px;
+        width: 300px;
+        margin: auto;
+    }
+
+    #facilities p
+    {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #cta
+    {
+        padding: 10% 12%;
+    }
+
+    .my-cta-div
+    {
+        height: 30vh;
+        width: 100%;
+    }
+
+    #cta h2
+    {
+        font-size: 2.5rem;
+    }
+
+    .my-btn-cta
+    {
+        margin: 3% 0 0;
+        width: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    .my-btn
+    {
+        width: auto;
+    }
+
+    #campus h3
+    {
+        padding: 3% 0 8%;
+    }
+    
+    #campus
+    {
+        padding-bottom: 3%;
+    }
+
+    #cta
+    {
+        padding: 15% 7%;
+    }
+
+    #cta h2
+    {
+        font-size: 2.5rem;
+    }
+
+    .my-cta-div
+    {
+        height: 50vh;
+    }
+
+    .my-btn-cta
+    {
+        width: 50%;
+    }
+
+}
+
+@media (max-width : 920px) and (min-width: 860px) {
+    #cta h2
+    {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width : 380px) {
+    #cta h2
+    {
+        padding-top: 12%;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 300px) {
+   
+
+    .facility-img
+    {
+        height: 215px;
+        width: 200px;
+    }
+
+    .campus-img
+    {
+        height: 250px;
+        width: 200px;
+    }
+
+    #cta h2
+    {
+        padding-top: 10%;
+        font-size: 1.75rem;
+    }
+
+    .my-btn-cta
+    {
+        margin: 4%;
+        width: 75%;
+    }
+
+}
